@@ -1,0 +1,57 @@
+body {
+    background-image: url('black1.jpg');
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    padding: 5px;
+}
+.title{
+    font-size: 28px;
+    text-align: center;
+    color:#fff;
+    font-family: cursive;
+    text-shadow:crimson 3px 2px;
+}
+
+.C1 {
+    max-width: 500px;
+    margin: auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.text {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.text label {
+    font-family: cursive;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.text input, .text select, .text textarea {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid;
+    font-family: cursive;
+    color: darkslategrey;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.text textarea {
+    height: 80px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 16px;
+    font-family: cursive;
+    font-weight:normal;
+    text-align: center;
+    border-radius: 2px;
+    color:darkslategray
+}
